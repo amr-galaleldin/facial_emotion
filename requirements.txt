@@ -5,4 +5,4 @@ flask
 tensorflow
 keras
 scikit-learn
-open-cv
+opencv-python
