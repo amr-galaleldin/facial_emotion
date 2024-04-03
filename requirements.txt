@@ -1,0 +1,8 @@
+gunicorn
+numpy
+PIL
+flask
+tensorflow
+keras
+scikit-learn
+open-cv
