@@ -1,8 +1,7 @@
 gunicorn
 numpy
-PIL
+pillow
 flask
 tensorflow
 keras
-scikit-learn
 opencv-python
