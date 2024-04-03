@@ -192,5 +192,5 @@ def insert():
 
 
 if __name__=="__main__":
-    app.run(port=4000)
+    app.run(debug=True)
 
