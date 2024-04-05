@@ -103,13 +103,13 @@ def image_predict_emotion(file_path):
 # If file exists, delete it.
 
 
-     img = Image.open(file_path)
+     # img = Image.open(file_path)
 
      # nparr = np.fromstring(file_path.read(), np.uint8)
      # img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
     
-
-     img = cv2.resize(np.array(img), (1280, 720))
+     img=cv2.imread(file_path)
+     img = cv2.resize(img, (1280, 720))
 
      
      face_detector = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
